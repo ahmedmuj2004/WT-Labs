@@ -35,11 +35,17 @@ Header                  Value
 ## ISS Current Location API (2 marks)
 | Criteria | Details |
 |---------|---------|
-| API Base URL | `_______________________________` |
-| Endpoint for current ISS location | `_______________________________` |
+| API Base URL | http://api.open-notify.org|
+| Endpoint for current ISS location | /iss-now.json |
 | Sample response format (example JSON) |
-```
-```
+{
+    "message": "success",
+    "timestamp": 1791364611,
+    "iss_position": {
+        "longitude": "-157.1391",
+        "latitude": "-50.6018"
+    }
+}
 |
 ---
 ## Geocoding API (4 marks)
