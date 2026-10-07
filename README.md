@@ -12,13 +12,25 @@ pattern in development of the Bot
 ## Webex Messaging API (4 marks)
 | Criteria | Details |
 |---------|---------|
-| API Base URL | `_______________________________` |
-| Authentication Method | `_______________________________` |
-| Endpoint to list rooms | `_______________________________` |
-| Endpoint to get messages | `_______________________________` |
-| Endpoint to send message | `_______________________________` |
-| Required headers | `_______________________________` |
-| Sample full GET or POST request | `_______________________________` |
+| API Base URL | https://webexapis.com/v1/ |
+| Authentication Method |Bearer Token / Bot Access Token  |
+| Endpoint to list rooms | GET /rooms, https://webexapis.com/v1/rooms  |
+| Endpoint to get messages |GET /messages?roomId={roomId}, https://webexapis.com/v1/messages?roomId={roomId} |
+| Endpoint to send message |POST /messages, https://webexapis.com/v1/messages  |
+| Required headers 
+Header                  Value
+| Authorization | Bearer YOUR_ACCESS_TOKEN |
+| Content-Type | application/json     |
+|
+| Sample full GET or POST request | {
+  "items": [
+    {
+      "id": "ROOM_ID",
+      "title": "Test Astrobot",
+      "type": "group"
+    }
+  ]
+} |
 ---
 ## ISS Current Location API (2 marks)
 | Criteria | Details |
