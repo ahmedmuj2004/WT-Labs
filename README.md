@@ -53,15 +53,22 @@ Header                  Value
 |---------|---------|
 | Provider used (Choose one) | **LocationIQ / Mapbox/ OpenWeatherMap other -provide
 detail** |
-| API Base URL | `_______________________________` |
-| Endpoint for geocoding | `_______________________________` |
-| Endpoint for reverse geocoding | `_______________________________` |
-| Authentication method | `_______________________________` |
-| Required query parameters | `_______________________________` |
-| Sample request with latitude/longitude | `_______________________________` |
+| API Base URL | https://api.openweathermap.org |
+| Endpoint for geocoding | /geo/1.0/direct |
+| Endpoint for reverse geocoding | /geo/1.0/reverse |
+| Authentication method | API key using the appid query parameter|
+| Required query parameters | Direct: q, appid Reverse: lat, lon, appid|
+| Sample request with latitude/longitude | http://api.openweathermap.org/geo/1.0/reverse?lat=51.5098&lon=-0.1180&limit=5&appid=f2ec791a7b332e3ce614b971ef8569ed |
 | Sample JSON response (formatted example) |
-```
-```
+[
+    {
+        "name": "London",
+        "lat": 51.5074456,
+        "lon": -0.1277653,
+        "country": "GB",
+        "state": "England"
+    }
+]
 |
 ---
 ## Weather API (3 marks)
@@ -72,7 +79,7 @@ details)** |
 | API Base URL | https://api.openweathermap.org |
 | Endpoint for current weather |https://api.openweathermap.org/data/2.5/weather |
 | Authentication method | Get/Api key |
-| Required query parameters | `_______________________________` |
+| Required query parameters | 10.9, 44.9 |
 | Sample JSON response (formatted example)
 {
     "coord": {
