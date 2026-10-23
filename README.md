@@ -285,3 +285,5 @@ In the future, I would improve AstroBot by adding more astronomy commands, such 
 6. Python Software Foundation (n.d.) *datetime — Basic date and time types*. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 28 October 2026).
 
    Provides example code for converting timestamps into readable dates and times.
+
+(image.png)
