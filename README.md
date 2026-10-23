@@ -260,3 +260,28 @@ I also identified security risks. The Webex access token and OpenWeatherMap API 
 In the future, I would improve AstroBot by adding more astronomy commands, such as information about planets and upcoming space events. I would also improve the error messages so users understand what went wrong. Another improvement would be allowing the bot to send astronomy pictures directly into Webex instead of only providing information or links. Overall, this project helped me understand how APIs work together and how Python can be used to create a useful bot for a real group of users.
 
 ### Total: /40
+
+### References 
+1. Webex for Developers (n.d.) *Rooms API*. Available at: https://developer.webex.com/docs/api/v1/rooms (Accessed: 14 October 2026).
+
+   Explains how the bot accesses Webex spaces and their information.
+
+2. OpenWeather (n.d.) *Current Weather Data*. Available at: https://openweathermap.org/api/current (Accessed: 14 October 2026).
+
+   Explains how the bot retrieves current weather information.
+
+3. OpenWeather (n.d.) *Geocoding API*. Available at: https://openweathermap.org/api/geocoding-api (Accessed: 21 October 2026).
+
+   Explains how the bot converts city names into coordinates for weather requests.
+
+4. Open Notify (n.d.) *ISS Current Location API*. Available at: http://api.open-notify.org/iss-now.json (Accessed: 21 October 2026).
+
+   Provides the API used to retrieve the International Space Station’s current location.
+  
+5. Requests (n.d.) *Quickstart*. Available at: https://requests.readthedocs.io/en/latest/user/quickstart/ (Accessed: 21 October 2026).
+
+   Provides Python example code for making GET and POST requests, handling API responses and working with JSON data.
+
+6. Python Software Foundation (n.d.) *datetime — Basic date and time types*. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 28 October 2026).
+
+   Provides example code for converting timestamps into readable dates and times.

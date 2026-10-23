@@ -1,10 +1,4 @@
 
-# Contains partially completed code with sections for you to complete
-# IT IS MANDATORY TO USE THE RESOURCE PROVIDED
-# The starter code is structured into functions and modules.
-# Complete the missing sections while maintaining this modular design.
-# Use Git for version control and commit changes regularly.
-
 import requests
 import json
 import time
