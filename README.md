@@ -278,11 +278,11 @@ In the future, I would improve AstroBot by adding more astronomy commands, such 
 
    Provides the API used to retrieve the International Space Station’s current location.
   
-5. Requests (n.d.) *Quickstart*. Available at: https://requests.readthedocs.io/en/latest/user/quickstart/ (Accessed: 21 October 2026).
+5. Requests (n.d.) *Quickstart*. Available at: https://requests.readthedocs.io/en/latest/user/quickstart/ (Accessed: 18 October 2026).
 
    Provides Python example code for making GET and POST requests, handling API responses and working with JSON data.
 
-6. Python Software Foundation (n.d.) *datetime — Basic date and time types*. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 28 October 2026).
+6. Python Software Foundation (n.d.) *datetime — Basic date and time types*. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 21 October 2026).
 
    Provides example code for converting timestamps into readable dates and times.
 
